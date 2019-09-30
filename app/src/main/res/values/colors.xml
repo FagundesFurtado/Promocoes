@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#141414</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="light">#4b4b4b</color>
+    <color name="dark">#4b4b4b</color>
+    <color name="colorAccent">#000000</color>
+    <color name="fundoBotoa">#841b6f</color>
+    <color name="fundoTela">#eeeeee</color>
+
+
+
+
+
+</resources>

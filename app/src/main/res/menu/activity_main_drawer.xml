@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_home_black_48dp"
+            android:title="Início" />
+        <item
+            android:id="@+id/nav_produtos"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Meus Produtos" />
+        <item
+            android:id="@+id/nav_desejos"
+            android:icon="@drawable/ic_favorite_black_48dp"
+            android:title="Meus Desejos" />
+        <item
+            android:id="@+id/nav_lojas"
+            android:icon="@drawable/ic_shopping_cart_black_48dp"
+            android:title="Lojas" />
+        <item
+            android:id="@+id/nav_configuracoes"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Configurações" />
+    </group>
+
+
+   <group android:checkableBehavior="single">
+            <item
+            android:id="@+id/nav_report"
+            android:icon="@drawable/ic_report_problem_black_48dp"
+            android:title="Reportar problema" />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_exit_to_app_black_48dp"
+                android:title="Sair" />
+   </group>
+</menu>
